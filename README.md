@@ -1,49 +1,31 @@
-🎬 Movie Searcher App
+# 🎬 Movie Searcher App  
 
-A Python Tkinter application that fetches movie details and posters using the OMDb API.
-This project demonstrates API integration, JSON parsing, GUI development, and image handling.
+A Python Tkinter application that fetches movie details and posters using the OMDb API.  
+This project demonstrates API integration, JSON parsing, GUI development, and image handling.  
 
-✨ Features
+# ✨ Features  
+# Search for any movie by title  
+# Display details including Title, Year, Genre, Director, Plot  
+# Show official movie poster if available  
+# Handle errors for invalid or missing movies  
+# Simple and clean Tkinter-based GUI  
 
-Search for any movie by title
+# 🛠️ Technologies Used  
+# Python (requests, tkinter, PIL)  
+# OMDb API for movie data  
 
-Display details: Title, Year, Genre, Director, Plot
+# 🚀 How to Run  
+# Step 1: Clone this repository  
+# Step 2: Install dependencies with  
+# pip install requests pillow  
+# Step 3: Get your own API key from http://www.omdbapi.com/apikey.aspx  
+# Step 4: Replace api_key in the code with your own key  
+# Step 5: Run the application with  
+# python movie_searcher.py  
 
-Show official movie poster (if available)
+# 🎯 Purpose  
+# Built purely for educational purposes  
+# Showcases API integration in Python  
+# Demonstrates GUI building with Tkinter  
+# Displays images fetched from the internet  
 
-Error handling for invalid or missing movies
-
-Simple, clean Tkinter-based GUI
-
-🛠️ Technologies Used
-
-Python (requests, tkinter, PIL)
-
-OMDb API for movie data
-
-🚀 How to Run
-
-Clone this repository
-
-Install dependencies:
-
-pip install requests pillow
-
-
-Get a free API key from OMDb API
-
-Replace api_key in the code with your own key
-
-Run the app:
-
-python movie_searcher.py
-
-🎯 Purpose
-
-This project is built purely for educational purposes and to showcase:
-
-API integration in Python
-
-Building GUIs with Tkinter
-
-Displaying images fetched from the internet
